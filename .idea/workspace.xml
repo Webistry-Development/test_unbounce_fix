@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9db03cc4-1f92-4294-8e80-928c80a2aee2" name="Changes" comment="" />
+    <list default="true" id="9db03cc4-1f92-4294-8e80-928c80a2aee2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unbounce-assets.js" beforeDir="false" afterPath="$PROJECT_DIR$/unbounce-assets.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,6 +48,7 @@
       <workItem from="1650556307410" duration="7000" />
       <workItem from="1650556327642" duration="220000" />
       <workItem from="1650556615415" duration="1758000" />
+      <workItem from="1650573119242" duration="6106000" />
     </task>
     <servers />
   </component>
