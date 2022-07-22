@@ -342,7 +342,7 @@
 }
 
 .savings-calculator .savings-calculator__result-card .savings-calculator__result-card__top {
-  min-height: 128px;
+  min-height: 140px;
   height: 56%;
 }
 
@@ -542,7 +542,7 @@
   }
 
   .savings-calculator .savings-calculator__result-block .savings-calculator__result-card {
-    min-width: 216px;
+    min-width: 266px;
     height: min-content;
   }
 
