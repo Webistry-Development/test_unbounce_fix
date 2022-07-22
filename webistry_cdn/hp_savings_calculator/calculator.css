@@ -39,6 +39,10 @@
   border-bottom: 1px solid #fff;
 }
 
+.savings-calculator .savings-calculator__tags__wrapper {
+  overflow: auto;
+}
+
 .savings-calculator .savings-calculator__tags {
   padding: 24px 48px;
   display: flex;
@@ -51,6 +55,7 @@
   opacity: 0.8;
   display: flex;
   align-content: center;
+  scroll-margin: 24px;
 }
 
 .savings-calculator .savings-calculator__tags__tag.current-step {
@@ -285,6 +290,7 @@
 
 .savings-calculator .savings-calculator__result-block__comparison {
   display: flex;
+  justify-content: center;
   gap: 10px;
   flex-basis: 68%;
 }
@@ -297,6 +303,7 @@
 .savings-calculator .savings-calculator__result-block.off-flow .savings-calculator__result-card {
   height: unset;
   padding-top: 36px;
+  max-width: 520px;
   min-width: 246px;
 }
 
@@ -309,8 +316,13 @@
   gap: 12px;
 }
 
+.savings-calculator .savings-calculator__result-block.off-flow .savings-calculator__result-card .savings-calculator__result-card__bottom .cartridge-thumbnail {
+  width: 100px;
+}
+
 .savings-calculator .savings-calculator__result-block.off-flow .savings__buttons-block {
   gap: 24px;
+  flex-direction: row;
   justify-content: center;
 }
 
@@ -330,7 +342,19 @@
 }
 
 .savings-calculator .savings-calculator__result-card .savings-calculator__result-card__top {
+  min-height: 128px;
   height: 56%;
+}
+
+.savings-calculator .savings-calculator__result-card .savings-calculator__result-card__top .heading-thumbnail {
+  width: 180px;
+}
+
+.savings-calculator .savings-calculator__result-card .savings-calculator__result-card__top .package-thumbnail {
+  position: absolute;
+  right: 0px;
+  top: 16px;
+  width: 131px;
 }
 
 .savings-calculator .savings-calculator__result-card .savings-calculator__result-card__bottom {
@@ -498,7 +522,9 @@
   }
 
   .savings-calculator .savings-calculator__step-block#calculator-step-block-3 .savings-calculator__result-block__comparison {
-    margin-top: 1rem;
+    justify-content: left;
+    padding: 1rem 28px 0 28px;
+    margin: 1rem -28px 0;
   }
 
   .savings-calculator .savings-calculator__result-card {
@@ -518,6 +544,15 @@
   .savings-calculator .savings-calculator__result-block .savings-calculator__result-card {
     min-width: 216px;
     height: min-content;
+  }
+
+  .savings-calculator .savings-calculator__result-card .savings-calculator__result-card__top .heading-thumbnail {
+    width: 140px;
+  }
+
+  .savings-calculator .savings-calculator__result-card .savings-calculator__result-card__top .package-thumbnail {
+    right: -16px;
+    width: 80px;
   }
 
   .savings-calculator .savings-calculator__result-card__heading-block {
@@ -540,9 +575,17 @@
     margin: 0;
   }
 
+  .savings-calculator .savings-calculator__cta {
+    padding: 12px 14px;
+  }
+
   .savings-calculator .savings-calculator__result-block.off-flow .savings-calculator__result-card .savings-calculator__result-card__heading {
     font-size: 24px;
     line-height: 32px;
+  }
+
+  .savings-calculator .savings-calculator__result-block.off-flow .savings__buttons-block {
+    justify-content: left;
   }
 
   .savings-calculator .savings-calculator__result-card .savings-calculator__result-card__bottom {
