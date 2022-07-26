@@ -449,14 +449,6 @@
   100% { width: 100%; }
 }
 
-.savings-calculator .desktop-only {
-  display: unset!important;
-}
-
-.savings-calculator .mobile-only {
-  display: none!important;
-}
-
 @media screen and (max-width: 767px) {
   .savings-calculator {
     padding-bottom: 48px;
@@ -638,8 +630,10 @@
   .savings-calculator .desktop-only {
     display: none!important;
   }
+}
 
+@media screen and (min-width: 768px) {
   .savings-calculator .mobile-only {
-    display: unset!important;
+    display: none!important;
   }
 }
