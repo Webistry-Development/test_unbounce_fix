@@ -35,7 +35,7 @@
   line-height: 54px;
   font-weight: 400;
   margin: 0;
-  padding: 32px 40px;
+  padding: 32px 40px 30px 40px;
   border-bottom: 1px solid #fff;
 }
 
@@ -76,6 +76,7 @@
   margin-right: 6px;
   border: 1px solid #fff;
   border-radius: 50%;
+  font-size: 12px;
 }
 
 .savings-calculator .savings-calculator__tags .step-tag__text {
@@ -86,8 +87,7 @@
   cursor: pointer;
   width: max-content;
   display: inline-block;
-  padding: 1rem 2rem;
-  flex-grow: 1;
+  padding: 16px 24px;
   border: 1px black solid;
   text-align: center;
   font-size: 20px;
@@ -115,6 +115,7 @@
   font-size: 24px;
   font-weight: 400;
   margin-bottom: 16px;
+  color: #000000;
 }
 
 .savings-calculator .savings-calculator__step-block .options-wrapper {
@@ -129,7 +130,7 @@
   align-items: center;
   width: max-content;
   gap: 8px;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
   user-select: none;
   cursor: pointer;
 }
@@ -160,8 +161,9 @@
   background-color: #000000;
   color: white;
   font-size: 18px;
+  line-height: 20px;
   letter-spacing: -.11px;
-  font-weight: 700;
+  font-weight: 500;
   padding: 13px 20px;
   text-decoration: none;
   user-select: none;
@@ -181,6 +183,10 @@
 }
 
 .savings-calculator .savings-calculator__step-block {
+  padding: 32px 48px;
+}
+
+.savings-calculator .savings-calculator__step-block#calculator-step-block-1 {
   padding: 56px 48px;
 }
 
@@ -191,7 +197,7 @@
 
 .savings-calculator .savings-calculator__accordion-tab {
   user-select: none;
-  margin-top: 30px;
+  margin-top: 24px;
   width: max-content;
   margin-bottom: 22px;
   display: flex;
@@ -205,6 +211,8 @@
 
 .savings-calculator .savings-calculator__accordion-body p {
   margin-bottom: 16px;
+  font-size: 18px;
+  line-height: 26px;
 }
 
 .savings-calculator .savings-calculator__accordion-body .option-button {
@@ -219,6 +227,7 @@
   font-size: 18px;
   font-weight: 400;
   margin-bottom: 12px;
+  line-height: 24px;
 }
 
 /*.savings-calculator .body-text.sample-name {*/
@@ -234,6 +243,7 @@
   font-size: 16px;
   opacity: 0.5;
   font-weight: 400;
+  line-height: 20px;
 }
 
 .savings-calculator .body-text--medium {
@@ -251,6 +261,7 @@
   font-size: 48px;
   font-weight: 400;
   line-height: 54px;
+  color: #000000;
 }
 
 .savings-calculator .savings-calculator__result-block .savings__buttons-block {
@@ -276,7 +287,7 @@
 }
 
 .savings-calculator .savings-calculator__result-card__heading {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 400;
 }
 
@@ -303,12 +314,10 @@
 .savings-calculator .savings-calculator__result-block.off-flow .savings-calculator__result-card {
   height: unset;
   padding-top: 36px;
-  max-width: 520px;
-  min-width: 246px;
 }
 
 .savings-calculator .savings-calculator__result-block.off-flow .savings-calculator__result-card .savings-calculator__result-card__heading {
-  margin-bottom: 32px;
+  margin-bottom: 28px;
 }
 
 .savings-calculator .savings-calculator__result-block.off-flow .savings-calculator__result-card .savings-calculator__result-card__bottom {
@@ -327,7 +336,7 @@
 }
 
 .savings-calculator .savings-calculator__result-block.off-flow .savings__buttons-block .savings-calculator__text-button {
-  margin: unset;
+  margin: auto 0;
 }
 
 .savings-calculator .savings-calculator__result-card {
@@ -352,7 +361,7 @@
 
 .savings-calculator .savings-calculator__result-card .savings-calculator__result-card__top .package-thumbnail {
   position: absolute;
-  right: 0px;
+  right: 0;
   top: 16px;
   width: 131px;
 }
@@ -383,8 +392,6 @@
 
 .savings-calculator .divider {
   border-bottom: 1px solid #000000;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
 }
 
 .savings-calculator .savings-calculator__result-block__savings {
@@ -486,24 +493,41 @@
     font-size: 16px;
     padding: 15px 26px;
     line-height: 20px;
+    width: 100%;
+    flex-grow: 1;
+  }
+
+  .savings-calculator #calculator-step-block-2 .options-wrapper {
+    width: unset;
+    flex-grow: unset;
   }
 
   .savings-calculator .savings-calculator__accordion-tab {
     font-size: 16px;
+    margin-bottom: 18px;
+  }
+
+  .savings-calculator .savings-calculator__accordion-body p {
+    font-size: 16px;
+    line-height: 24px;
   }
 
   .savings-calculator .savings-calculator__accordion-body .body-text--medium::before {
-    content: '\A\A';
+    content: '\A';
+    display: block;
+    height: 16px;
     white-space: pre;
   }
 
   .savings-calculator .savings-calculator__accordion-body .body-text--medium::after {
-    content: '\A\A';
+    content: '\A';
     white-space: pre;
+    display: block;
+    height: 24px;
   }
 
-  .savings-calculator .savings-calculator__accordion-body .option-button {
-    width: 203px;
+  .savings-calculator #calculator-step-block-2 .savings-calculator__accordion-body .option-button {
+    width: 255px;
   }
 
   .savings-calculator .savings-calculator__back-button {
@@ -523,7 +547,7 @@
 
   .savings-calculator .savings-calculator__step-block#calculator-step-block-3 .savings-calculator__result-block__comparison {
     justify-content: left;
-    padding: 1rem 28px 0 28px;
+    padding: 1rem 14px 0 14px;
     margin: 1rem -28px 0;
   }
 
