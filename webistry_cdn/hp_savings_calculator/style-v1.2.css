@@ -149,7 +149,7 @@
   max-width: 100%;
 }
 
-.savings-calculator .savings-calculator__text-button #calculator-chev-left {
+.savings-calculator .savings-calculator__text-button .calculator-chev-left {
   padding: 6px;
   border-radius: 50%;
   background: #F4F4F4;
