@@ -497,7 +497,7 @@
     flex-grow: 1;
   }
 
-  .savings-calculator #calculator-step-block-2 .options-wrapper {
+  .savings-calculator #calculator-step-block-2 .option-button {
     width: unset;
     flex-grow: unset;
   }
