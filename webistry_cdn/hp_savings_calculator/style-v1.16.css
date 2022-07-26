@@ -450,11 +450,11 @@
 }
 
 .savings-calculator .desktop-only {
-  display: unset;
+  display: unset!important;
 }
 
 .savings-calculator .mobile-only {
-  display: none;
+  display: none!important;
 }
 
 @media screen and (max-width: 767px) {
@@ -636,10 +636,10 @@
   }
 
   .savings-calculator .desktop-only {
-    display: none;
+    display: none!important;
   }
 
   .savings-calculator .mobile-only {
-    display: unset;
+    display: unset!important;
   }
 }
