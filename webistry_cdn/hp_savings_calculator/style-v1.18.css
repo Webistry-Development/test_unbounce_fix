@@ -3,6 +3,8 @@
   display: flex;
   flex-direction: column;
   align-content: center;
+  scroll-behavior: smooth;
+  overflow: hidden;
 }
 
 /* v--- normalize all elements ---v */
@@ -635,5 +637,147 @@
 @media screen and (min-width: 768px) {
   .savings-calculator .mobile-only {
     display: none!important;
+  }
+}
+
+/* Animations */
+
+.shift-out-left {
+  animation-name: shift-out-left;
+  animation-duration: 1.5s;
+}
+
+.shift-out-right {
+  animation-name: shift-out-right;
+  animation-duration: 1.5s;
+}
+
+.shift-in-right-16 {
+  animation-name: shift-in-right-16;
+  animation-duration: 1.5s;
+}
+
+.shift-in-right-30 {
+  animation-name: shift-in-right-30;
+  animation-duration: 1.5s;
+}
+
+.shift-in-left-16 {
+  animation-name: shift-in-left-16;
+  animation-duration: 1.5s;
+}
+
+.shift-in-left-30 {
+  animation-name: shift-in-left-30;
+  animation-duration: 1.5s;
+}
+
+.fly-in-right-animation,
+.fly-in-right-animation--delayed {
+  opacity: 0;
+  /* sets opacity to 0 on page load. Don't worry, it will be */
+  /* set back to 1 if the animation is not supported.        */
+}
+
+.fly-in-right {
+  animation-name: flying-in-right;
+  animation-duration: 2s;
+}
+
+.fly-in-right--delayed {
+  animation-name: flying-in-right--delayed;
+  animation-duration: 2s;
+}
+
+@keyframes shift-out-left {
+  0% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateX(-16px);
+  }
+}
+
+@keyframes shift-out-right {
+  0% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateX(16px);
+  }
+}
+
+
+@keyframes shift-in-right-30 {
+  0% {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes shift-in-right-16 {
+  0% {
+    opacity: 0;
+    transform: translateX(16px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes shift-in-left-30 {
+  0% {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes shift-in-left-16 {
+  0% {
+    opacity: 0;
+    transform: translateX(-16px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes flying-in-right {
+  0% {
+    transform: translateX(30px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes flying-in-right--delayed {
+  0% {
+    transform: translateX(30px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
   }
 }
