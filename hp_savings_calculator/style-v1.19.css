@@ -12,7 +12,6 @@
   font-family: 'Formadjrmicro', sans-serif;
   margin: 0;
   padding: 0;
-  transition: all 0.2s ease-in-out;
 }
 
 /* ^--- normalize all elements ---^ */
@@ -195,6 +194,7 @@
 .savings-calculator .savings-calculator__accordion-block {
   overflow: hidden;
   max-height: 70px;
+  transition: all 0.2s ease-in-out;
 }
 
 .savings-calculator .savings-calculator__accordion-tab {
@@ -644,32 +644,38 @@
 
 .shift-out-left {
   animation-name: shift-out-left;
-  animation-duration: 1.5s;
+  animation-duration: .4s;
+  transition-timing-function: ease-in;
 }
 
 .shift-out-right {
   animation-name: shift-out-right;
-  animation-duration: 1.5s;
+  animation-duration: .4s;
+  transition-timing-function: ease-in;
 }
 
 .shift-in-right-16 {
   animation-name: shift-in-right-16;
-  animation-duration: 1.5s;
+  animation-duration: .4s;
+  transition-timing-function: ease-out;
 }
 
 .shift-in-right-30 {
   animation-name: shift-in-right-30;
-  animation-duration: 1.5s;
+  animation-duration: .4s;
+  transition-timing-function: ease-out;
 }
 
 .shift-in-left-16 {
   animation-name: shift-in-left-16;
-  animation-duration: 1.5s;
+  animation-duration: .4s;
+  transition-timing-function: ease-out;
 }
 
 .shift-in-left-30 {
   animation-name: shift-in-left-30;
-  animation-duration: 1.5s;
+  animation-duration: .4s;
+  transition-timing-function: ease-out;
 }
 
 .fly-in-right-animation,
@@ -681,12 +687,14 @@
 
 .fly-in-right {
   animation-name: flying-in-right;
-  animation-duration: 2s;
+  animation-duration: .6s;
+  transition-timing-function: ease-out;
 }
 
 .fly-in-right--delayed {
   animation-name: flying-in-right--delayed;
-  animation-duration: 2s;
+  animation-duration: .6s;
+  transition-timing-function: ease-out;
 }
 
 @keyframes shift-out-left {
