@@ -457,7 +457,8 @@
   }
 
   .savings-calculator .savings-calculator__section-heading {
-    display: none;
+    font-size: 32px;
+    line-height: 40px;
   }
 
   .savings-calculator .savings-calculator__step-block {
