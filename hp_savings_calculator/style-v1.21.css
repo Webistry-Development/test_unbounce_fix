@@ -457,8 +457,9 @@
   }
 
   .savings-calculator .savings-calculator__section-heading {
-    font-size: 32px;
-    line-height: 40px;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 24px 0;
   }
 
   .savings-calculator .savings-calculator__step-block {
