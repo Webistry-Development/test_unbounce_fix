@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'moderat-regular';
+    src: url('./bac25135d92e390c06ad35155055ec84.woff2') format("woff2"),
+    url('./ca786e718a447d7e29c0ddeb96152a71.woff') format("woff");
+}
+
+@font-face {
+    font-family: 'moderat-regular-italic';
+    url('./6cdfe1f4e5d2fc338d119266228aff78.woff') format("woff");
+}
+
+@font-face {
+    font-family: 'moderat-medium';
+    src: url('./76f6b6c8a0201976f6da45bf22669c2b.woff2') format("woff2"),
+    url('./f0368bf0051f608f6fb3f03d8da8523d.woff') format("woff");
+}
+
+@font-face {
+    font-family: 'moderat-medium-italic';
+    url('./0896723e9c92b91681895b716e39874e.woff') format("woff");
+}
+
+@font-face {
+    font-family: 'moderat-bold';
+    src: url("./3db15baba1f16c390bd38a440393cb32.woff2") format("woff2"),
+    url('./f25b2208a063ed5909f5df7deae10c6d.woff') format("woff");
+}
+
+@font-face {
+    font-family: 'moderat-bold-italic';
+    url('./bb006dbaa5e35e9f99b79576265c7a3c.woff') format("woff");
+}
+
+@font-face {
+    font-family: "moderat-extended-bold";
+    src: url("./b17741b5cc58b24cf924c249d05c618a.woff2") format("woff2"),
+    url("./abe12c36b246162001ab3af00e095f31.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'moderat-extended-bold-italic';
+    src: url('./95dec90ff748dfdd16cf9f79d71e393f.woff2') format("woff2"),
+    url('./5e5d868bbde1c272daf41b0c84b0e642.woff') format("woff");
+}
