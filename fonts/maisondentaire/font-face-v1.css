@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Gascogne-Serial-ExtraLightRegular';
+    font-weight: 400;
+    src: url('./GascoSerExtLigRe.otf') format("opentype");
+}
+
+@font-face {
+    font-family: 'Swiss721Extended';
+    font-weight: 400;
+    src: url('./Swiss721Extended.otf') format("opentype");
+}
+
+@font-face {
+    font-family: 'Swiss721LightExtended';
+    font-weight: 400;
+    src: url('./Swiss721LightExtended.otf') format("opentype");
+}
