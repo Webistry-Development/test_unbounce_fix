@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9db03cc4-1f92-4294-8e80-928c80a2aee2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/fonts/maisondentaire/GascoSerExtLigRe.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/maisondentaire/Swiss721Extended.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/maisondentaire/Swiss721LightExtended.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/maisondentaire/font-face-v1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/toakchocolate/CanelaDeck-Light.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/toakchocolate/CanelaDeck-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/toakchocolate/CanelaDeck-Regular.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/toakchocolate/font-face-v1.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +33,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/fonts/maisondentaire" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/fonts" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -43,9 +42,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/fonts" />
       <recent name="$PROJECT_DIR$/fonts/maisondentaire" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/fonts/toakchocolate" />
       <recent name="$PROJECT_DIR$/fonts/maisondentaire" />
     </key>
   </component>
@@ -62,6 +63,7 @@
       <workItem from="1650556615415" duration="1758000" />
       <workItem from="1650573119242" duration="6106000" />
       <workItem from="1665501475740" duration="364000" />
+      <workItem from="1669136096006" duration="136000" />
     </task>
     <servers />
   </component>
