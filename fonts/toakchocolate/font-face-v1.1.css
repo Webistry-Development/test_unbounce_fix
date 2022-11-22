@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Canela Deck';
+    font-weight: 300;
+    src: url('./CanelaDeck-Light.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'Canela Deck';
+    font-weight: 300;
+    src: url('./CanelaDeck-Light.otf') format("opentype");
+}
+
+@font-face {
+    font-family: 'Canela Deck';
+    font-weight: 400;
+    src: url('./CanelaDeck-Regular.otf') format("opentype");
+}
+
+@font-face {
+    font-family: 'Neue Haas Unica Pro';
+    font-weight: 300;
+    src: url('./NeueHaasUnicaPro-Light.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'Neue Haas Unica Pro';
+    font-weight: 500;
+    src: url('./NeueHaasUnicaPro-Medium.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'Neue Haas Unica Pro';
+    font-weight: 400;
+    src: url('./NeueHaasUnicaPro-Regular.ttf') format("truetype");
+}
