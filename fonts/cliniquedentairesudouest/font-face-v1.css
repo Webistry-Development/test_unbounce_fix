@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Karelia';
+    font-weight: 700;
+    src: url('./Karelia-Bold.otf') format("opentype");
+}
+
+@font-face {
+    font-family: 'Karelia';
+    font-weight: 500;
+    src: url('./Karelia-Medium.otf') format("opentype");
+}
+
+@font-face {
+    font-family: 'Karelia';
+    font-weight: 400;
+    src: url('./Karelia-Regular.otf') format("opentype");
+}
